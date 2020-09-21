@@ -40,6 +40,9 @@
     if (self.length<from) {
         NSLog(@"字符串substringFromIndex方法越界");
         return @"";
+        
+        
+        
     }else{
         return [self hu_substringFromIndex:from];
     }

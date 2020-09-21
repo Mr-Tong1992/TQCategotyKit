@@ -1,0 +1,6 @@
+framework module TQCategotyKit {
+  umbrella header "TQCategotyKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

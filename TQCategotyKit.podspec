@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TQCategotyKit'
-  s.version          = '3'
+  s.version          = '4'
   s.summary          = 'A short description of TQCategotyKit.'
 
 # This description is used to generate tags and improve search results.
@@ -29,8 +29,20 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  
+  if ENV['use_code'] or ENV[s.name+'_use_code']
+      puts '-------------------------------------------------------------------'
+      puts "Notice: #{s.name} is source now"   #打印信息，修改库名称为自己的库名
+      puts '-------------------------------------------------------------------'
+      s.source_files = 'TQCategotyKit/Classes/**/*'
+  else #Framework模式
+      puts '-------------------------------------------------------------------'
+      puts "Notice:#{s.name} is binary now"   #打印信息，修改库名称为自己的库名
+      puts '-------------------------------------------------------------------'
+      s.ios.vendored_frameworks = 'Frameworks/*.framework'   #指定当前库依赖的Framework
+  end
 
-  s.source_files = 'TQCategotyKit/Classes/**/*'
+
   
   # s.resource_bundles = {
   #   'TQCategotyKit' => ['TQCategotyKit/Assets/*.png']
