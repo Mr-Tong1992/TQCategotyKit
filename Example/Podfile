@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TQCategotyKit_Example' do
+  pod 'TQCategotyKit', :path => '../'
+
+  target 'TQCategotyKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
