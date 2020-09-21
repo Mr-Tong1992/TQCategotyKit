@@ -1,0 +1,16 @@
+PODS:
+  - TQCategotyKit (0.1.0)
+
+DEPENDENCIES:
+  - TQCategotyKit (from `../`)
+
+EXTERNAL SOURCES:
+  TQCategotyKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TQCategotyKit: 1f6a897c5b28a06532c5b6563b09dca4330747ef
+
+PODFILE CHECKSUM: a38cf0d86389653169abeda58df64474562fa7a4
+
+COCOAPODS: 1.8.4

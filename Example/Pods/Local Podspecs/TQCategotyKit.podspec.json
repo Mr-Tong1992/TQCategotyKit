@@ -1,0 +1,22 @@
+{
+  "name": "TQCategotyKit",
+  "version": "0.1.0",
+  "summary": "A short description of TQCategotyKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mr-Tong1992/TQCategotyKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mr-Tong1992": "qiang@syswin.com"
+  },
+  "source": {
+    "git": "https://github.com/Mr-Tong1992/TQCategotyKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TQCategotyKit/Classes/**/*"
+}
