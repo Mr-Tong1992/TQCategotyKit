@@ -1,16 +1,36 @@
 PODS:
-  - TQCategotyKit (0.1.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - SDWebImage (5.9.1):
+    - SDWebImage/Core (= 5.9.1)
+  - SDWebImage/Core (5.9.1)
+  - TQCategotyKit (5):
+    - Masonry
+    - MBProgressHUD
+    - SDWebImage
 
 DEPENDENCIES:
+  - Masonry
+  - MBProgressHUD
+  - SDWebImage
   - TQCategotyKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - MBProgressHUD
+    - SDWebImage
 
 EXTERNAL SOURCES:
   TQCategotyKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TQCategotyKit: 1f6a897c5b28a06532c5b6563b09dca4330747ef
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SDWebImage: a990c053fff71e388a10f3357edb0be17929c9c5
+  TQCategotyKit: ebdd568bff52d861a3a49e0d64bb0c0f3442d396
 
-PODFILE CHECKSUM: a38cf0d86389653169abeda58df64474562fa7a4
+PODFILE CHECKSUM: 40c5a2090716317344593459613bd7a2f5b99007
 
 COCOAPODS: 1.8.4

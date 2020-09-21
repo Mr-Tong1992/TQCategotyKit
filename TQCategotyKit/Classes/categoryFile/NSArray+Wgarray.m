@@ -9,10 +9,12 @@
 #import "NSArray+Wgarray.h"
 #import <objc/message.h>
 
+
 @implementation NSArray (Wgarray)
 
 +(void)load{
     [super load];
+    
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         

@@ -7,6 +7,9 @@
 //
 
 #import "TQViewController.h"
+//#import <TQCategotyKit/NSArray+Wgarray.h>
+//#import "CenterViewController.h"
+
 
 @interface TQViewController ()
 
@@ -17,6 +20,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

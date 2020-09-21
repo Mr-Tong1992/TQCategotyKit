@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TQCategotyKit'
-  s.version          = '5'
+  s.version          = '6'
   s.summary          = 'A short description of TQCategotyKit.'
 
 # This description is used to generate tags and improve search results.
