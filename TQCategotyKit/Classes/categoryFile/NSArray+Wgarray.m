@@ -15,6 +15,10 @@
     [super load];
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
+        
+        
+        
+        
         //注意：有个坑，很可能造成不走你交换的方法：class名字确定最好不要用[self class]，他的确定可以从崩溃日至那里来确定，例如这个__NSArrayI类名的确认是从崩溃日志'*** -[__NSArrayI objectAtIndexedSubscript:]: index 3 beyond bounds [0 .. 2]'来确定的
         Class class = NSClassFromString(@"__NSArrayI");
         Method oldMethod = class_getInstanceMethod(class, @selector(objectAtIndexedSubscript:));
