@@ -45,6 +45,16 @@
     }
 }
 
+
+
+
+
+
+
+
+
+
+
 - (NSString *)hu_substringToIndex:(NSUInteger)to{
     if (self.length <to) {
         NSLog(@"字符串substringToIndex方法越界");
