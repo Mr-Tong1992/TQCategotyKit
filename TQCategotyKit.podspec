@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TQCategotyKit'
-  s.version          = '4'
+  s.version          = '5'
   s.summary          = 'A short description of TQCategotyKit.'
 
 # This description is used to generate tags and improve search results.
@@ -30,6 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
   
+  s.dependency 'Masonry'
+  s.dependency 'SDWebImage'
+  s.dependency 'MBProgressHUD'
+
   if ENV['use_code'] or ENV[s.name+'_use_code']
       puts '-------------------------------------------------------------------'
       puts "Notice: #{s.name} is source now"   #打印信息，修改库名称为自己的库名
