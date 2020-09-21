@@ -46,8 +46,8 @@ lipo -create "$BUILD_DIR_IphoneSimulator/${CONFIGURATION}-iphonesimulator/${TARG
 
 
 
-#echo "------------------\n移除多余文件..."
-#rm -r $BUILD_DIR_Iphoneos
-#rm -r $BUILD_DIR_IphoneSimulator
+echo "------------------\n移除多余文件..."
+rm -r $BUILD_DIR_Iphoneos
+rm -r $BUILD_DIR_IphoneSimulator
 
 echo "------------------  \nframework 输出地址: $OUTPUT_FOLDER/${TARGET_NAME}.framework \n"

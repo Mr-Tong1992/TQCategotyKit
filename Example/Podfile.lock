@@ -4,7 +4,7 @@ PODS:
   - SDWebImage (5.9.1):
     - SDWebImage/Core (= 5.9.1)
   - SDWebImage/Core (5.9.1)
-  - TQCategotyKit (5):
+  - TQCategotyKit (6):
     - Masonry
     - MBProgressHUD
     - SDWebImage
@@ -29,7 +29,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   SDWebImage: a990c053fff71e388a10f3357edb0be17929c9c5
-  TQCategotyKit: ebdd568bff52d861a3a49e0d64bb0c0f3442d396
+  TQCategotyKit: 7886e8bc0842a39f38b30d2cadafe1db2ca2e915
 
 PODFILE CHECKSUM: 40c5a2090716317344593459613bd7a2f5b99007
 

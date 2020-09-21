@@ -7,8 +7,8 @@
 //
 
 #import "TQViewController.h"
-//#import <TQCategotyKit/NSArray+Wgarray.h>
-//#import "CenterViewController.h"
+#import <TQCategotyKit/lll.h>
+
 
 
 @interface TQViewController ()
