@@ -15,6 +15,12 @@
 + (void)load{
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
+        
+        
+        
+        
+        
+        
         Class class = NSClassFromString(@"__NSCFString");
         Method oldMethod = class_getInstanceMethod(class, @selector(substringFromIndex:));
         Method newMethod = class_getInstanceMethod(class, @selector(hu_substringFromIndex:));
